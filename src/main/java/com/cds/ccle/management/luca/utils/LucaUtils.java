@@ -13,6 +13,9 @@ public class LucaUtils {
 
 	private static final String HEX_PATTERN = "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$";
 
+	/**
+	 * Comprueba si está vació o es null un String
+	 */
 	public static boolean isNullOrEmpty(String validateString) {
 		if (validateString == null || validateString.trim().isEmpty()) {
 			return true;
